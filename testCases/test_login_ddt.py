@@ -1,5 +1,7 @@
 import time
 
+import pytest
+
 from pageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
@@ -11,6 +13,8 @@ class Test_002_DDT_Login:
     logger = LogGen.loggen()
     stars = 10 * "*"
 
+    @pytest.mark.sanity
+    @pytest.mark.regression
     def test_login(self, setup):
         self.logger.info(f"{self.stars} Test_002_DDT_Login {self.stars}")
         self.logger.info(f"{self.stars} Verifying Login Test {self.stars}")

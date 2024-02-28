@@ -17,7 +17,7 @@ class Test_003_AddCustomer:
     logger = LogGen.loggen()  # Logger
     stars = 10 * "*"
 
-    @pytest.mark.sanity
+
     @pytest.mark.regression
     def test_addCustomer(self, setup):
         self.logger.info(f"{self.stars} Test_003_AddCustomer {self.stars}")

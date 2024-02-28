@@ -1,3 +1,5 @@
+import pytest
+
 from pageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
@@ -10,6 +12,8 @@ class Test_001_Login:
     logger = LogGen.loggen()
     stars = 10 * "*"
 
+
+    @pytest.mark.regression
     def test_homePageTitle(self, setup):
         self.logger.info(f"{self.stars} Test_001_Login {self.stars}")
         self.logger.info(f"{self.stars} Verifying Home Page Title {self.stars}")
@@ -26,6 +30,8 @@ class Test_001_Login:
             self.logger.info(f"{self.stars} Home page title test is failed {self.stars}")
             assert False
 
+    @pytest.mark.sanity
+    @pytest.mark.regression
     def test_login(self, setup):
         self.logger.info(f"{self.stars} Verifying Login Test {self.stars}")
         self.driver = setup

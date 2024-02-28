@@ -1,8 +1,12 @@
-2024-02-25 21:57:55,137 :INFO :root :********** Test_003_AddCustomer **********
-2024-02-25 21:57:57,447 :INFO :root :********** Login succesful **********
-2024-02-25 21:57:57,448 :INFO :root :********** Starting Add Customer Test **********
-2024-02-25 21:58:03,458 :INFO :root :********** Providing customer info **********
-2024-02-25 21:58:13,750 :INFO :root :********** Saving customer info **********
-2024-02-25 21:58:13,751 :INFO :root :********** Add customer validation started **********
-2024-02-25 21:58:14,070 :INFO :root :********** Add customer Test Passed **********
-2024-02-25 21:58:14,147 :INFO :root :********** Ending Add customer test **********
+2024-02-27 21:39:28,084 :INFO :root :********** Verifying Login Test **********
+2024-02-27 21:39:30,042 :INFO :root :********** Login test is passed **********
+2024-02-27 21:39:30,671 :INFO :root :********** Login test is passed **********
+2024-02-27 21:39:31,878 :INFO :root :********** Test_002_DDT_Login **********
+2024-02-27 21:39:31,879 :INFO :root :********** Verifying Login Test **********
+2024-02-27 21:39:38,626 :INFO :root :********** Passed **********
+2024-02-27 21:39:44,793 :ERROR :root :********** Passed **********
+2024-02-27 21:39:50,211 :ERROR :root :********** Passed **********
+2024-02-27 21:39:55,605 :ERROR :root :********** Passed **********
+2024-02-27 21:39:55,605 :INFO :root :********** Login DDT test passed **********
+2024-02-27 21:39:55,693 :INFO :root :********** End of login DDT Test **********
+2024-02-27 21:39:55,693 :INFO :root :********** Complete TC_loginDDT_002 **********
